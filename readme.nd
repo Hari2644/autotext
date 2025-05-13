@@ -1,1 +1,4 @@
-this project mainly helps for auto text as it suggests with the word itself.
+I referred to an existing open-source project to understand the fundamentals of auto-typing text effects. Using it as a learning base,
+I modified the design, added new interactive features like color customization, speed control, pause/resume functionality, and multiple text support. 
+This helped me improve my understanding of HTML, CSS, and JavaScript, while also allowing me to add my own creative touch.
+My intention was purely educational — to learn, practice, and grow as a developer by building something meaningful.
