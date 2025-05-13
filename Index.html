@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Auto Text Effect</title>
-  </head>
-  <body>
-    <h1 id="text">Starting...</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Typewriter Text Animation</title>
+</head>
+<body>
+  <div class="container">
+    <h1 id="text"></h1><span class="cursor">|</span>
 
-    <div>
+    <div class="controls">
       <label for="speed">Speed:</label>
-      <input type="number" name="speed" id="speed" value="1" min="1" max="10" step="1">
-    </div>
+      <input type="range" id="speed" min="1" max="10" value="3" />
 
-    <script src="script.js"></script>
-  </body>
+      <label for="color">Color:</label>
+      <input type="color" id="color" value="#ffffff" />
+
+      <button id="toggle">Pause</button>
+      <button id="restart">Restart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
